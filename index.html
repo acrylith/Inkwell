@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,700;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <title>Inkwell</title>
+</head>
+<body>
+    <header class="header">
+    <div class="container">
+        <div class="header__desktop">
+            <div class="left">
+                <a href="#" class="brand"><i class="ic-logo"></i>Inkwell</a>
+                <div class="header__social">
+                    <a href="#"><i class="ic-fb"></i></a>
+                    <a href="#"><i class="ic-tw"></i></a>
+                    <a href="#"><i class="ic-in"></i></a>
+                </div>
+            </div>
+            <div class="right">
+                <nav class="header__nav">
+                    <ul class="header__nav _list">
+                        <li>
+                            <a href="#" class="header__link">Home</a>
+                        </li>
+                        <li class="sub">
+                            Pages <i class="ic-down-open"></i>
+                            <div class="content">
+                                <a href="#" class="header__link">Page One</a>
+                                <a href="#" class="header__link">Page Two</a>
+                                <a href="#" class="header__link">Page Three</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">About</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="header__cart"><i class="ic-cart"></i></button>
+                </nav>
+                <button class="header__burger" id="burger">
+                    <i class="ic-menu"></i>
+                </button>
+                <button class="header__button _button">Order Today</button>
+            </div>
+        </div>
+    </div>
+    <div class="mobile">
+        <div class="container">
+            <nav class="mobile__nav">
+                <ul class="mobile__nav _list">
+                    <li>
+                        <a href="#" class="mobile__link">Home</a>
+                    </li>
+                    <li class="sub">
+                        Pages <i class="ic-down-open"></i>
+                        <ul class="content">
+                            <li>
+                                <a href="#" class="mobile__link">Page One</a>
+                            </li>
+                            <li>
+                                <a href="#" class="mobile__link">Page One</a>
+                            </li>
+                            <li>
+                                <a href="#" class="mobile__link">Page One</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="mobile__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mobile__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mobile__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+    <section class="welcome">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="welcome__banner">
+                    <div class="welcome__content">
+                        <h3>Welcome to Inkwell</h3>
+                        <h1>Books are uniquely portable magic</h1>
+                        <p>
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                        </p>
+                    </div>
+                    <div class="welcome__actions">
+                        <a href="#" class="order _button">Order Today</a>
+                        <a href="#" class="demo">Read free demo</a>
+                    </div>
+                    <div class="welcome__chars">
+                        <div class="welcome__char">
+                            <span class="name">Pages:</span>
+                            <span class="value">586 pages</span>
+                        </div>
+                        <div class="welcome__char">
+                            <span class="name">Length:</span>
+                            <span class="value">10 hours</span>
+                        </div>
+                        <div class="welcome__char">
+                            <span class="name">Ratings:</span>
+                            <span class="value">4.5/5 (305 ratings)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="welcome__image">
+                    <img src="img/book.jpg" alt="the dark light">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="includes">
+    <div class="container">
+        <h1 class="includes__title _title" center>Author's Book Includes</h1>
+        <div class="includes__wrapper">
+            <div class="includes__book">
+                <div class="includes__cover">
+                    <img src="img/atomic.jpg" alt="atomic ones">
+                </div>
+                <div class="includes__info">
+                    <h3>Atomic One's</h3>
+                    <p>
+                        Many variations of passages of Lorem Ipsum willing araise  alteration in some form.
+                    </p>
+                    <div class="includes__chars">
+                        <div class="includes__char">
+                            <span class="name">Pages:</span>
+                            <span class="value">586 pages</span>
+                        </div>
+                        <div class="includes__char">
+                            <span class="name">Length:</span>
+                            <span class="value">10 hours</span>
+                        </div>
+                    </div>
+                    <button class="includes__order">Order Today</button>
+                </div>
+            </div>
+            <div class="includes__book">
+                <div class="includes__cover">
+                    <img src="img/darklight.jpg" alt="the dark light">
+                </div>
+                <div class="includes__info">
+                    <h3>The Dark Light</h3>
+                    <p>
+                        Many variations of passages of Lorem Ipsum willing araise  alteration in some form.
+                    </p>
+                    <div class="includes__chars">
+                        <div class="includes__char">
+                            <span class="name">Pages:</span>
+                            <span class="value">586 pages</span>
+                        </div>
+                        <div class="includes__char">
+                            <span class="name">Length:</span>
+                            <span class="value">10 hours</span>
+                        </div>
+                    </div>
+                    <button class="includes__order">Order Today</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="about">
+    <div class="container">
+        <div class="about__wrapper">
+            <div class="about__iamge">
+                <div class="_frame">
+                    <img src="img/abraham.jpg" alt="John Abraham, author" />
+                </div>
+            </div>
+            <div class="about__info">
+                <h1 class="about__title _title">About Author</h1>
+                <p class="about__text">
+                    All the Lorem Ipsum generators on the Internet tend to repeated predefined chunks as necessary, 
+                    making this the first true value generator on the Internet. 
+                    It uses a dictionary of over 200 Latin words, combined with a handful.
+                </p>
+                <div class="about__chars">
+                    <div class="about__char">
+                        <span class="value">02</span>
+                        <span class="name">Books Published</span>
+                    </div>
+                    <div class="about__char">
+                        <span class="value">4.5</span>
+                        <span class="name">User Reviews</span>
+                    </div>
+                    <div class="about__char">
+                        <span class="value">04</span>
+                        <span class="name">Best Seller Awards</span>
+                    </div>
+                </div>
+                <div class="about__badge">
+                    <div class="about__qr">
+                        <img src="img/qr.jpg" alt="qr">
+                    </div>
+                    <div class="about__contacts">
+                        <h4>John Abraham, Ph.d</h4>
+                        <span>Mail: <a href="mailto: johnabraham@gmail.com">johnabraham@gmail.com</a></span>
+                        <span>Phone: <a href="tel:+21235459000">(+2) 123 545 9000</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="trusted">
+    <div class="container">
+        <h1 class="trusted__title _title" center>Trusted by best</h1>
+        <div class="trusted__wrapper">
+            <div class="trusted__item">
+                <div class="image">
+                    <img src="img/amazen.svg" alt="Amazen Corp.">
+                </div>
+                <h3 class="name">Amazen Corp</h3>
+                <p class="text">A long established fact that a who looking at its layout.</p>
+            </div>
+            <div class="trusted__item">
+                <div class="image">
+                    <img src="img/megan.svg" alt="Megan Books">
+                </div>
+                <h3 class="name">Megan Books</h3>
+                <p class="text">A long established fact that a who looking at its layout.</p>
+            </div>
+            <div class="trusted__item">
+                <div class="image">
+                    <img src="img/los.svg" alt="Los Books">
+                </div>
+                <h3 class="name">Los Books</h3>
+                <p class="text">A long established fact that a who looking at its layout.</p>
+            </div>
+            <div class="trusted__item">
+                <div class="image">
+                    <img src="img/urban.svg" alt="Urban Lib">
+                </div>
+                <h3 class="name">Urban Lib</h3>
+                <p class="text">A long established fact that a who looking at its layout.</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="get">
+    <div class="container">
+        <div class="get__wrapper">
+            <div class="get__info">
+                <h2 class="get__title _title">Get Book Copy Today</h2>
+                <p class="get__text">This the first true value generator on the Internet. It uses alphas dictionary of over 200 Latin words.</p>
+                <button class="get__order">Order Today</button>
+            </div>
+            <div class="get__image">
+                <img src="img/cofeebook.png" alt="Cofee & Book">
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="learn">
+    <div class="container">
+        <h1 class="learn__title _title" center>What will you learn?</h1>
+        <div class="learn__wrapper">
+            <div class="learn__info">
+                <div class="learn__card">
+                    <span class="number">01</span>
+                    <p class="text">Use HDFS & Map Reduce for storing & analyzing data at scale.</p>
+                </div>
+                <div class="learn__card">
+                    <span class="number">02</span>
+                    <p class="text">Consume streaming data using Spark Streaming, Flink, and Storm.</p>
+                </div>
+                <div class="learn__card">
+                    <span class="number">03</span>
+                    <p class="text">Choose an appropriate data storage technology for your application</p>
+                </div>
+                <div class="learn__card">
+                    <span class="number">04</span>
+                    <p class="text">Analyze non-relational data using HBase, Cassandra, and MongoDB.</p>
+                </div>
+            </div>
+            <div class="learn__image">
+                <div class="_frame">
+                    <img src="img/learn.jpg" alt="Learn!">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="chapter">
+    <div class="container">
+        <h1 class="chapter__title _title" center>The Chapter Includes</h1>
+        <div class="chapter__wrapper">
+            <div class="chapter__card">
+                <h3>Chapter- 01   Get Started Intro</h3>
+                <p>Making this the first true value generator on the Internet. It of over 200 Latin words, combined with a handful.</p>
+                <div class="chapter__chars">
+                    <div class="chapter__char">
+                        <span class="name">Pages:</span>
+                        <span class="value">85 pages</span>
+                    </div>
+                    <div class="chapter__char">
+                        <span class="name">Length:</span>
+                        <span class="value">1Hour 15 mins</span>
+                    </div>
+                </div>
+            </div>
+            <div class="chapter__card">
+                <h3>Chapter- 02   Create a Massive Content</h3>
+                <p>Making this the first true value generator on the Internet. It of over 200 Latin words, combined with a handful.</p>
+                <div class="chapter__chars">
+                    <div class="chapter__char">
+                        <span class="name">Pages:</span>
+                        <span class="value">85 pages</span>
+                    </div>
+                    <div class="chapter__char">
+                        <span class="name">Length:</span>
+                        <span class="value">1Hour 15 mins</span>
+                    </div>
+                </div>
+            </div>
+            <div class="chapter__card">
+                <h3>Chapter- 03   Maintaining the Creative Arcs</h3>
+                <p>Making this the first true value generator on the Internet. It of over 200 Latin words, combined with a handful.</p>
+                <div class="chapter__chars">
+                    <div class="chapter__char">
+                        <span class="name">Pages:</span>
+                        <span class="value">85 pages</span>
+                    </div>
+                    <div class="chapter__char">
+                        <span class="name">Length:</span>
+                        <span class="value">1Hour 15 mins</span>
+                    </div>
+                </div>
+            </div>
+            <div class="chapter__card">
+                <h3>Chapter- 04   The Conclusion</h3>
+                <p>Making this the first true value generator on the Internet. It of over 200 Latin words, combined with a handful.</p>
+                <div class="chapter__chars">
+                    <div class="chapter__char">
+                        <span class="name">Pages:</span>
+                        <span class="value">85 pages</span>
+                    </div>
+                    <div class="chapter__char">
+                        <span class="name">Length:</span>
+                        <span class="value">1Hour 15 mins</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chapter__start">
+            <button class="_button">Start a 15-Days Trail</button>
+            <p>Short description about each chapter<br/><a href="#">Have any questions?</a> Contact us</p>
+        </div>
+    </div>
+</section>
+    <section class="say">
+    <div class="container">
+        <div class="say__wrapper">
+            <div class="say__info">
+                <h1 class="_title">What Readers Say About The Book</h1>
+                <p>
+                    If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators.
+                </p>
+                <div class="say__overall">
+                    <div class="say__rating">
+                        <span class="star" full></span>
+                        <span class="star" full></span>
+                        <span class="star" full></span>
+                        <span class="star" full></span>
+                        <span class="star" half></span>
+                        <span class="star"></span>
+                        <span class="numbers">(4.8/5)</span>
+                    </div>
+                    <p>Overall Customer Ratings</p>
+                </div>
+            </div>
+            <div class="say__cards">
+                <div class="say__reader">
+                    <div class="profile">
+                        <div class="avatar">
+                            <img src="img/martin.jpg" alt="Martin Phillips">
+                        </div>
+                        <div class="name">
+                            <h3>Martin Phillips</h3>
+                            <div class="say__rating" small>
+                                <span class="star" full></span>
+                                <span class="star" full></span>
+                                <span class="star" full></span>
+                                <span class="star" full></span>
+                                <span class="star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <h2>Awesome Impact</h2>
+                        <p>All the Lorem Ipsum generators on the Internet tend to repeat willings predefined chunks value.</p>
+                    </div>
+                </div>
+                <div class="say__reader">
+                    <div class="profile">
+                        <div class="avatar">
+                            <img src="img/christina.jpg" alt="Christina Louis">
+                        </div>
+                        <div class="name">
+                            <h3>Christina Louis</h3>
+                            <div class="say__rating" small>
+                                <span class="star" full></span>
+                                <span class="star" full></span>
+                                <span class="star" full></span>
+                                <span class="star" full></span>
+                                <span class="star" half></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <h2>Great Books Collections</h2>
+                        <p>All the Lorem Ipsum generators on the Internet tend to repeat willings predefined chunks value.</p>
+                    </div>
+                </div>
+                <div class="say__reader">
+                    <div class="profile">
+                        <div class="avatar">
+                            <img src="img/james.jpg" alt="James Anderson">
+                        </div>
+                        <div class="name">
+                            <h3>James Anderson</h3>
+                            <div class="say__rating" small>
+                                <span class="star" full></span>
+                                <span class="star" full></span>
+                                <span class="star" full></span>
+                                <span class="star" full></span>
+                                <span class="star" full></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <h2>Mind Blowing Words</h2>
+                        <p>All the Lorem Ipsum generators on the Internet tend to repeat willings predefined chunks value.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="articles">
+    <div class="container">
+        <h1 class="articles__title _title" center>Articles & Resources</h1>
+        <div class="articles__wrapper">
+            <div class="articles__card">
+                <div class="image">
+                    <img src="img/article1.jpg" alt="The energy efficiency offers hydrotherapy or swim">
+                </div>
+                <div class="text">
+                    <h1>The energy efficiency offers hydrotherapy or swim</h1>
+                    <p>The point of using Lorem Ipsum hiter of that using making it look like others readable will get end.</p>
+                    <div class="links">
+                        <a class="more" href="#">Read more</a>
+                        <a href="#">Author - 23.03.2023</a>
+                    </div>
+                </div>
+            </div>
+            <div class="articles__card">
+                <div class="image">
+                    <img src="img/article2.jpg" alt="Release of Letraset sheets tools containing  passages">
+                </div>
+                <div class="text">
+                    <h1>Release of Letraset sheets tools containing  passages</h1>
+                    <p>The point of using Lorem Ipsum hiter of that using making it look like others readable will get end.</p>
+                    <div class="links">
+                        <a class="more" href="#">Read more</a>
+                        <a href="#">Author - 23.03.2023</a>
+                    </div>
+                </div>
+            </div>
+            <div class="articles__card">
+                <div class="image">
+                    <img src="img/article3.jpg" alt="The energy efficiency offers hydrotherapy or swim">
+                </div>
+                <div class="text">
+                    <h1>The energy efficiency offers hydrotherapy or swim</h1>
+                    <p>The point of using Lorem Ipsum hiter of that using making it look like others readable will get end.</p>
+                    <div class="links">
+                        <a class="more" href="#">Read more</a>
+                        <a href="#">Author - 23.03.2023</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="free">
+    <div class="container">
+        <div class="free__wrapper">
+            <h1 class="free__title _title" center>Reed a free chapter</h1>
+            <p class="free__text">
+                Making this the first true value generator on the Internet. It of over 200 Latin words, combined with a handful.
+            </p>
+            <div class="free__field">
+                <input type="text" placeholder="Your Email"/>
+                <button>Subscribe</button>
+            </div>
+        </div>
+    </div>
+</section>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <div class="footer__links">
+                <a href="#" class="footer__brand"><i class="ic-logo"></i>Inkwell</a>
+                <div class="footer__social">
+                    <a href="#" class="footer__link"><i class="ic-fb"></i></a>
+                    <a href="#" class="footer__link"><i class="ic-tw"></i></a>
+                    <a href="#" class="footer__link"><i class="ic-in"></i></a>
+                </div>
+            </div>
+            <div class="footer__keep">
+                <h4>Keep in Touch</h4>
+                <div class="footer__info">
+                    <span class="name">Address:</span>
+                    <p class="value">
+                        47 Fake Street, Fake City<br/>
+                        FK1NW, UK
+                    </p>
+                </div>
+                <div class="footer__info">
+                    <span class="name">E-mail:</span>
+                    <p class="value">public@inkwell.com</p>
+                </div>
+                <div class="footer__info">
+                    <span class="name">Phone:</span>
+                    <p class="value">+44 123 456 7890</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="./js/app.min.js"></script>
+</body>
+</html>
