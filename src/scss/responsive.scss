@@ -1,0 +1,219 @@
+@media (min-width: 1400px) {
+    .get {
+        &__wrapper {
+            gap: 126px;
+        }
+    }
+    .say {
+        &__wrapper {
+            gap: 112px;
+        }
+    }
+}
+@media (min-width: 1200px) {
+    .header {
+        &__social {
+            display: flex;
+        }
+        &__button {
+            display: inline-flex;
+        }
+    }
+    .about {
+        &__wrapper {
+            gap: 142px;
+            &>div {
+                flex: 1;
+            }
+        }
+    }
+    .trusted {
+        &__wrapper {
+            gap: 97px;
+        }
+    }
+    .learn {
+        &__wrapper {
+            flex-wrap: nowrap;
+            gap: 100px;
+        }
+        &__info {
+            width: 630px;
+        }
+    }
+    .say {
+        &__info {
+            width: min-content;
+            h1 {
+                padding-right: 92px;
+            }
+            p {
+                width: 420px;
+            }
+        }
+        &__wrapper {
+            flex-wrap: nowrap;
+        }
+    }
+    .articles {
+        &__wrapper {
+            flex-wrap: nowrap;
+        }
+    }
+}
+@media (min-width: 992px) {
+    .header {
+        &__nav {
+            &._list {
+                display: flex;
+            }
+        }
+        .mobile {
+            display: none;
+        }
+        &__burger {
+            display: none;
+        }
+    }
+    .welcome {
+        &__banner {
+            padding-right: 54px;
+        }
+    }
+    .chapter {
+        &__card {
+            flex: 0 1 calc(50% - 20px);
+        }
+    }
+}
+@media (max-width: 991px) {
+    .header {
+        max-height: 114px;
+        overflow-y: hidden;
+    }
+    .welcome {
+        &__image {
+            margin-top: 42px;
+        }
+        &__actions {
+            justify-content: center;
+        }
+        &__chars {
+            justify-content: center;
+            gap: 28px;
+        }
+    }
+    .includes {
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+    }
+    .about {
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+    }
+    .trusted {
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        &__item {
+            flex: 1 0 calc(50% - 20px);
+        }
+    }
+    .get {
+        &__wrapper {
+            flex-direction: column;
+            gap: 40px;
+            &>div {
+                flex: 100%;
+            }
+        }
+        &__iamge {
+            align-self: center;
+        }
+    }
+    .free {
+        &__field {
+            flex-wrap: wrap;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .say {
+        &__cards {
+            grid-template-columns: 1fr;
+        }
+        &__reader {
+            &:nth-child(even) {
+                margin: 0;
+            }
+        }
+    }
+    .footer {
+        &__wrapper {
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            &>div {
+                flex-grow: 1;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+            }
+        }
+    }
+}
+@media (max-width: 576px) {
+    .welcome {
+        &__chars {
+            flex-wrap: wrap;
+        }
+        &__char {
+            flex-grow: 1;
+        }
+        &__actions {
+            gap: 18px;
+            .order {
+                padding: 20px 0;
+            }
+            a {
+                flex-grow: 1;
+            }
+        }
+    }
+    .includes {
+        &__book {
+            flex-wrap: wrap;
+        }
+        &__cover, &__info {
+            width: 100%;
+        }
+        &__info {
+            text-align: center;
+            align-items: center;
+        }
+        &__chars {
+            gap: 40px;
+        }
+    }
+    .about {
+        &__badge {
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+        }
+    }
+    .trusted {
+        &__item {
+            flex: 1 0 100%;
+        }
+    }
+    .learn {
+        &__card {
+            flex: 1 1 100%;
+        }
+    }
+}
